@@ -1,2 +1,3 @@
 # html-practice
-A repo to track and practice my HTML learning journey.
+
+This repo contains my practice files and notes as I learn as HTML step by step.
