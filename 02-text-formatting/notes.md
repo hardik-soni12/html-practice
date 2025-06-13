@@ -9,5 +9,5 @@
     h6 ~~ least important.  
   
 ▫️p for paragraphs.  
-▫️<strong> : used for Bold text (semantic)  
-▫️<em> : used for italic text (semantic)
+▫️strong : used for Bold text (semantic)  
+▫️em : used for italic text (semantic)
