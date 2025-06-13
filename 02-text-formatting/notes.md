@@ -16,4 +16,5 @@
 ▫️small : makes text slightly smaller.  
 ▫️hr : is used to insert a horizontal line, typically to seprate content.  
 ▫️sub : used for subscript text (eg., H₂O)  
-▫️sup : used for superscript text (eg., x²)
+▫️sup : used for superscript text (eg., x²)  
+▫️pre : used to display preformatted text with spaces and line breaks preserved.
