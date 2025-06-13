@@ -10,5 +10,5 @@
   
 ▫️p for paragraphs.  
 ▫️strong or b : used for Bold text (semantic)  
-▫️em or i : used for italic text (semantic)
+▫️em or i : used for italic text (semantic)  
 ▫️u : used for underline text.
