@@ -17,4 +17,5 @@
 ▫️hr : is used to insert a horizontal line, typically to seprate content.  
 ▫️sub : used for subscript text (eg., H₂O)  
 ▫️sup : used for superscript text (eg., x²)  
-▫️pre : used to display preformatted text with spaces and line breaks preserved.
+▫️pre : used to display preformatted text with spaces and line breaks preserved.  
+▫️span : Inline container used to style part of text or apply javascript. Does not break the line.  
