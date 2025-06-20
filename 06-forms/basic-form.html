@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        form {
+            padding-left: 600px;
+            background-color: blanchedalmond ;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit.py" method="post">
+        <label><b><u><big>Registration form : </big> </u></b></label><br><br><br>
+        <label for="username">username : </label>
+        <input type="text" placeholder="username" id="username" name="username" required><br><br>
+
+        <label for="password">password : </label>
+        <input type="password" placeholder="password" id="password" name="pass" required><br><br><br>
+        
+        <label>Gender : </label><br><br>
+        <label for="male">
+            <input type="radio" value="male" id="male" name="Gender" required>Male
+        </label>
+        
+        <label for="female">
+            <input type="radio" value="female" id="female" name="Gender" required>Female
+        </label>
+        <br><br><br>
+        
+        <label>skills : </label><br><br>
+        <label for="html">
+            <input type="checkbox" name="skills[]" id="html" value="HTML">HTML
+        </label><br><br>
+        
+        <label for="css">
+            <input type="checkbox" name="skills[]" id="css" value="CSS">CSS
+        </label><br><br>
+        
+        <label for="javascript">
+            <input type="checkbox" name="skills[]" id="javascript" value="JavaScript">JavaScript
+        </label><br><br>
+        
+        <label for="python">
+            <input type="checkbox" name="skills[]" id="python" value="Python">Python
+        </label><br><br>
+        
+        <label for="flask">
+            <input type="checkbox" name="skills[]" id="flask" value="Flask">Flask
+        </label><br><br>
+        
+        <label for="django">
+            <input type="checkbox" name="skills[]" id="django" value="Django">Django
+        </label><br><br>
+        
+        <label for="sql">
+            <input type="checkbox" name="skills[]" id="sql" value="SQL">SQL
+        </label><br><br><br>
+
+        <label for="state">Select your state : </label><br><br>
+        <select name="state" id="state" style="padding: 2px;" required>
+            <option value="" disabled selected hidden>Select your state</option>
+            <option value="Maharashta">Maharashta</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Telangana">Telangana</option>
+        </select><br><br><br>
+
+        <label for="feedback">feedback : </label><br><br>
+        <textarea name="feedback" id="feedback" placeholder="enter your feedback here!!" rows="4" cols="30" required></textarea>
+        <br><br><br>
+        
+        <button type="submit" style="padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; ">submit</button>
+
+    </form>
+</body>
+</html>
