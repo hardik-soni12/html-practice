@@ -36,4 +36,16 @@
 ▫️Add title for accessibility.  
 ▫️allowfullscreen to support full-screen videos.  
   
+## &lt;video&gt; tag:  
+▫️The video tag is used to embed video content directly in a webpage without third-party plugins.
+  
+~~ Common Attributes for video tag:  
+▫️src : path to the video file.  
+▫️controls : shows default play/pause/volume contols.  
+▫️autoplay : starts playing automatically.  
+▫️muted : mutes the video (needed for autoplay to work).  
+▫️loop : Repeats the video.  
+▫️poster : image shown before the video loads.  
+▫️weight/height : size of the video player.  
+  
 --  
