@@ -29,3 +29,11 @@
   --
 
 ▫️Use name="" attribute for input fields to make them submit data correctly.  
+  
+## Iframe (Embedded content):  
+~~ &lt;iframe src="https://example.com" width="600" height="400"&gt;&lt;/iframe&gt;  
+▫️Use to embed Youtube, Maps, or External sites.  
+▫️Add title for accessibility.  
+▫️allowfullscreen to support full-screen videos.  
+  
+--  
